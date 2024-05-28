@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextUtils App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>TextUtils App</h1>
+    <div>
+        <img src="./images/png-transparent-bold-text-solid-icon.png" alt="Bold" onclick="makeBold()" id="boldIcon">
+        <img src="./images/download.jpg" alt="italic" onclick="makeitalic()" id="italicIcon">
+        <img src="./images/download.png" alt="underline" onclick="makeunderline()" id="underlineIcon">
+        <img src="./images/rainbow-png-image-2432.png" alt="rainbow" onclick="rainbow()" id="rainbowIcon">
+        <input type="color" id="circlerainbow" onchange="rainbowIcon()">
+
+
+
+        <button onclick="center()">center</button>
+        <button onclick="center()">center</button>
+         
+        
+        <div class="box">
+
+        <input class="input-container" type="text" id="text" placeholder="font bold">
+        
+        <input class="input-container" type="text" id="text" placeholder="background color">
+        <input class="input-container" type="text" id="text" placeholder="font size">
+        <input class="input-container" type="text" id="text" placeholder="font family">
+        
+        
+
+</div>
+
+
+
+    </div>
+    <br>
+    <textarea id="myTextarea" rows="4" cols="50" maxlength="200" readonly
+        placeholder="Enter your text here..."></textarea>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

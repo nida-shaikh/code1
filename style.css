@@ -1,0 +1,93 @@
+div{
+    border: 2px solid black;
+    height: 250px;
+    width: 700px;
+    margin-left: 200px;
+}
+input{
+    margin-left: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;}
+    .underline{
+        text-decoration: underline;
+    }
+#boldIcon {
+    width: 30px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-top: 10px;
+    
+}
+#italicIcon {
+    width: 30px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-top: 10px;
+}
+
+
+
+#underlineIcon {
+    width: 30px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-top: 10px;
+}
+#rainbowIcon {
+    width: 30px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-top: 10px;
+}
+
+textarea {
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+    border: 1px solid black;
+    margin-left: 300px;
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #333;
+    padding: 10px;
+    padding-top: 12px;
+    border-radius: 10px;
+    align-items: flex-end;
+    
+}
+
+.box {
+    width: 300px;
+    height: 170px;
+    border: 2px solid black;
+    margin-left: auto; /* Align to the right */
+    margin-right: 30px; /* Reset any right margin */
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
